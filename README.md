@@ -77,6 +77,7 @@
   - **설명**: 1인 셀러의 반복 CS를 Zero-Setup AI RAG 및 마켓 API(스마트스토어/쿠팡) 실시간 송장 연동을 통해 무인 대응하는 SaaS 리서치.
 - 🎯 [Fact Sheet 02: 상품명/키워드 최적화 (docs/02-keyword.md)](./docs/02-keyword.md)
   - **설명**: API 직접 연동형 1-Click 최적화, 로직 감점 방지용 실시간 SEO 린터(Linter) 엔진, 검색 순위 변동 감지 기반 자동 리프레시 SaaS 리서치.
+  - **상세 기획**: ➡️ [Pinpoint SEO Linter (v1) 기능 정의서 (docs/02-keyword-spec.md)](./docs/02-keyword-spec.md)
 - 🎯 [Fact Sheet 03: 정산/매출 분석 (docs/03-settlement.md)](./docs/03-settlement.md)
   - **설명**: 주문 건별 실시간 역마진 감지, 마켓별 수수료 및 광고비 귀속, 반품 배송비 누락 및 오공제 자동 탐지(Audit) 특화 SaaS 리서치.
 - 🎯 [Fact Sheet 04: 카드뉴스/SNS 마케팅 (docs/04-sns.md)](./docs/04-sns.md)
