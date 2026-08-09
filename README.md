@@ -70,6 +70,8 @@
 ### 1. 프로젝트 헌장 & 정의서
 - [프로젝트 정의서 (project-pinpoint-definition.md)](./project-pinpoint-definition.md)
   - **설명**: Project Pinpoint의 핵심 Identity, 의사결정 3대 원칙(후커블, 데이터 기반, 깊은 엔지니어링), 탈락 사유 및 성공/실패 기준을 정의한 Single Source of Truth.
+- [MVP 구현 계획서 (implementation_plan.md)](../../.gemini/antigravity-ide/brain/b634019d-f1a1-40a8-b2cb-46295165a259/implementation_plan.md)
+  - **설명**: Pinpoint SEO Linter (v1)의 PostgreSQL DDL, API 명세 및 Linter 엔진 알고리즘 상세 기술 설계서.
 
 ### 2. Candidate MVP Fact Sheets (영역별 리서치 및 기획서)
 각 후보 도메인의 시장성, 페인포인트, TAM/SAM/SOM, 백엔드 구현 포인트를 정리한 팩트시트입니다.

@@ -241,16 +241,12 @@
   - **선정 배경**: API 획득 장벽 없음, 시각적 즉시 체감성(Linter 및 1-Click 스토어 동기화) 극대화, Deep Engineering(형태소 분석 및 분산 순위 스크래핑) 적용의 용이성.
 
 ### 8.2 다음 에이전트가 즉시 이어받아야 할 작업 (Next Action Items)
-1. **기획서 및 화면 정의 확인**:
-   - 확정된 ➡️ [Pinpoint SEO Linter (v1) 기능 정의서 (docs/02-keyword-spec.md)](./docs/02-keyword-spec.md)의 기능 범위와 ➡️ [Pinpoint SEO Linter (v1) 화면 정의서 (docs/02-keyword-screen-spec.md)](./docs/02-keyword-screen-spec.md)의 UI 컴포넌트 구조 및 와이어프레임을 파악하십시오.
-2. **MVP 구현 계획서 (`implementation_plan.md`) 작성**:
-   - 기능 정의서를 근간으로 하는 구체적인 시스템 아키텍처 설계, DDL 및 백엔드 처리 흐름을 담은 상세 구현 계획서를 작성하십시오.
-3. **상세 설계 요구사항**:
-   - **데이터베이스 스키마 설계**: PostgreSQL(상품 스캔 데이터 캐시, 검출된 위반 사항, 카테고리 규칙 사전) 및 Redis(연동 동기화 큐 상태) 설계.
-   - **SEO 린팅(Linter) 규칙 엔진 흐름**: 형태소 분석기(Mecab)를 활용한 명사 토큰화 및 네이버 쇼핑 감점 규칙(중복 단어, 특수 기호, 권장 글자 수, 카테고리 매칭률 등) 적용 연산 흐름 구체화.
-   - **대규모 분산 상품 스캔 스케줄러**: BullMQ를 이용한 다량 상품 정보 API 호출 분산 처리 및 스토어별 동기화 락(Lock)/제어 설계.
-4. **사용자 컨펌 및 Phase 4 개발 진입**:
-   - 설계안에 대해 오너(Leones)님의 피드백 및 승인을 득한 후, 개발(NestJS, Next.js, PostgreSQL)에 착수하십시오.
+1. **기술 아키텍처 및 상세 설계 확인**:
+   - 기획 및 개발 직전 설계 산출물인 ➡️ [MVP 구현 계획서 (implementation_plan.md)](../../.gemini/antigravity-ide/brain/b634019d-f1a1-40a8-b2cb-46295165a259/implementation_plan.md)와 ➡️ [기능 정의서 (docs/02-keyword-spec.md)](./docs/02-keyword-spec.md) 및 ➡️ [화면 정의서 (docs/02-keyword-screen-spec.md)](./docs/02-keyword-screen-spec.md)를 교차 분석하여 시스템 설계를 파악하십시오.
+2. **Phase 4 실제 개발 코드 작성 착수**:
+   - 본 설계를 기준으로 PostgreSQL DB 마이그레이션 실행, NestJS 기본 세팅(TypeORM, BullMQ, Redis) 및 Mecab 기반 NLP 린터 규칙 엔진 개발을 시작하십시오.
+3. **사용자 컨펌 및 검증**:
+   - 작성된 API에 대해 Swagger 연동 및 Verification Plan에 기재된 Mocking 검증을 수행하고, 프론트엔드(Next.js) 대시보드와 상품 진단 테이블 화면을 붙이는 단계로 진입하십시오.
 
 ---
 
