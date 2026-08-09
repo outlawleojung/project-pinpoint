@@ -241,8 +241,8 @@
   - **선정 배경**: API 획득 장벽 없음, 시각적 즉시 체감성(Linter 및 1-Click 스토어 동기화) 극대화, Deep Engineering(형태소 분석 및 분산 순위 스크래핑) 적용의 용이성.
 
 ### 8.2 다음 에이전트가 즉시 이어받아야 할 작업 (Next Action Items)
-1. **기능 정의 및 기획 확인**:
-   - 확정된 ➡️ [Pinpoint SEO Linter (v1) 기능 정의서 (docs/02-keyword-spec.md)](./docs/02-keyword-spec.md)의 기획 범위(Read-only 스캔 + 진단 + 교정안 제안)와 User Flow를 파악하십시오.
+1. **기획서 및 화면 정의 확인**:
+   - 확정된 ➡️ [Pinpoint SEO Linter (v1) 기능 정의서 (docs/02-keyword-spec.md)](./docs/02-keyword-spec.md)의 기능 범위와 ➡️ [Pinpoint SEO Linter (v1) 화면 정의서 (docs/02-keyword-screen-spec.md)](./docs/02-keyword-screen-spec.md)의 UI 컴포넌트 구조 및 와이어프레임을 파악하십시오.
 2. **MVP 구현 계획서 (`implementation_plan.md`) 작성**:
    - 기능 정의서를 근간으로 하는 구체적인 시스템 아키텍처 설계, DDL 및 백엔드 처리 흐름을 담은 상세 구현 계획서를 작성하십시오.
 3. **상세 설계 요구사항**:
