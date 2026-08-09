@@ -79,8 +79,8 @@
   - **설명**: API 직접 연동형 1-Click 최적화, 로직 감점 방지용 실시간 SEO 린터(Linter) 엔진, 검색 순위 변동 감지 기반 자동 리프레시 SaaS 리서치.
 - 🎯 [Fact Sheet 03: 정산/매출 분석 (docs/03-settlement.md)](./docs/03-settlement.md)
   - **설명**: 주문 건별 실시간 역마진 감지, 마켓별 수수료 및 광고비 귀속, 반품 배송비 누락 및 오공제 자동 탐지(Audit) 특화 SaaS 리서치.
-- ⏳ *[Fact Sheet 04: 카드뉴스/SNS 마케팅 (docs/04-sns.md)]*
-  - **설명**: 마케팅 숏폼/카드뉴스 자동 생성 및 다채널 배포 오토메이션 SaaS 기획 (예정).
+- 🎯 [Fact Sheet 04: 카드뉴스/SNS 마케팅 (docs/04-sns.md)](./docs/04-sns.md)
+  - **설명**: 상품 URL 기반 인스타 릴스 영상/카드뉴스 자동 렌더링(Remotion Lambda) 및 API 예약 발행 오토파일럿 SaaS 리서치.
 
 ---
 
